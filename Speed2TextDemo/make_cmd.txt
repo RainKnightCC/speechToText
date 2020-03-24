@@ -1,0 +1,3 @@
+
+g++ main.cpp libekho.a libmusicxml2.a -pthread -I. -Iutfcpp/source -Isonic -lsndfile -lespeak -lpulse-simple -lpulse -D_REENTRANT -o Demo
+
